@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+        body{
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background: rgb(52, 54, 54);
+        }
+        .login{
+            width: 320px;
+            height: 400px;
+            background: rgb(52, 54, 54);
+            box-shadow: -10px -10px 15px rgba(0, 0, 0, 0.3),
+            10px 10px 15px rgba(0, 0, 0, 0.3);
+            border-radius: 20px;
+            color: orange;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+        h2{
+            font-family: 'Great vibes' , cursive;
+            text-align: center;
+            font-size: 40px;
+            font-weight: 40px;
+            margin: 50px 0px 20px 0px;
+            color: orange;
+        }
+        form{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        label{
+            font-size: 18px;
+            color: orange;
+            margin: 7px 0px;
+        }
+        input{
+            width: 230px;
+            height: 30px;
+            border-radius: 20px;
+            border: none;
+            outline: none;
+            background-color: orange;
+            color: rgb(54, 52, 26);
+            padding: 0px 10px;
+            box-shadow: inset 2px 2px 5px 0 rgba(0, 0, 0, 0.3) , 
+            inset -4px -4px 10px 0 rgba(255, 255, 255, 0.4);
+        }
+        ::placeholder{
+            color: rgba(33, 44, 48, 0.3);
+        }
+        p{
+            margin: 10px 0px;
+            font-size: 18px;
+        }
+        input[type="submit"]{
+            width: 150px;
+        }
+    </style>
+</head>
+<body>
+    <div class="login">
+        <h2>Sign Up</h2>
+        <form action="sac.html">
+            <label for="username">username</label>
+            <input type="text" id="username" placeholder="username">
+
+            <label for="password">password</label>
+            <input type="password" id="password" placeholder="password">
+
+            <p>forgot password</p>
+
+            <input type="submit" value="sign up">
+        </form>
+
+    </div>
+</body>
+</html>
